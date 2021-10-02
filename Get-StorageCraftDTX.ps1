@@ -8,3 +8,4 @@ $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
 $ExtractShell.NameSpace($ExtractPath).CopyHere($ExtractFiles) 
 Start-Process $ExtractPath
 Start-Process -NoNewWindow -FilePath "C:\dtx\dtx.exe"
+Start-Process "C:\ProgramData\StorageCraft\dtx"
