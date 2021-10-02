@@ -1,4 +1,4 @@
-﻿$url = 'https://downloads.storagecraft.com/SP_Files/dtx-2.3.0-0_windows-x86_64_2021-08-05.zip'
+$Url = 'https://downloads.storagecraft.com/SP_Files/dtx-2.3.0-0_windows-x86_64_2021-08-05.zip'
 $DownloadZipFile = "C:\dtx\zip\" + $(Split-Path -Path $Url -Leaf)
 $ExtractPath = "C:\dtx\"
 New-Item -ItemType Directory -Force -Path C:\dtx\zip
